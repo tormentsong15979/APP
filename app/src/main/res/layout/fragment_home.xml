@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hand_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:onClick="onImageRecognitionButtonClick"
+                android:text="手勢辨識" />
+
+            <Button
+                android:id="@+id/body_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:drawableBottom="@drawable/btn_bg"
+                android:onClick="body_btn"
+                android:text="姿態辨識" />
+            <Button
+                android:id="@+id/post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:drawableBottom="@drawable/btn_bg"
+                android:onClick="post_btn"
+                android:text="po文" />
+
+            <Button
+                android:id="@+id/operate_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:drawableBottom="@drawable/btn_bg"
+                android:onClick="hand_btn"
+                android:text="操作說明" />
+                android:onClick="onRealtimeRecognitionButtonClick"
+                android:text="即時辨識" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="420dp"
+                android:layout_height="420dp"
+                android:src="@drawable/ai_1" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="420dp"
+                android:layout_height="420dp"
+                android:src="@drawable/ai_2" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/page_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="xswzaq"
+                android:text="Button" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

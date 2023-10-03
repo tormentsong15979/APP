@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+
+    <string-array name="gender">
+        <item> 男</item>
+        <item> 女</item>
+        <item> 不告訴你(妳)</item>
+    </string-array>
+    <string name="enter_your_post">Enter your post</string>
+    <string name="send_post">send_post</string>
+    <string name="post_image">post_image</string>
+    <string name="choose_image">choose_image</string>
+    <string name="fab_description">添加新貼文</string>
+
+
+    <string name="no_camera_access">No camera access</string>
+
+    <string name="previous_month">Previous Month</string>
+    <string name="next_month">Next Month</string>
+
+    <string name="tfe_pe_app_name">TFL Pose Estimation</string>
+    <string name="tfe_pe_request_permission">This app needs camera permission.</string>
+    <string name="tfe_pe_tv_score">Score: %.2f</string>
+    <string name="tfe_pe_tv_model">Model: </string>
+    <string name="tfe_pe_tv_fps">Fps: %d</string>
+    <string name="tfe_pe_tv_device">Device: </string>
+    <string name="tfe_pe_tv_classification_value">- %s</string>
+    <string name="tfe_pe_tv_pose_classification">Pose Classification</string>
+    <string name="tfe_pe_tv_tracking">Tracker: </string>
+    <string name="tfe_pe_gpu_error">Movenet MultiPose does not support GPU. Fallback to CPU.</string>
+    <string-array name="tfe_pe_models_array">
+        <item>Movenet Lightning</item>
+        <item>Movenet Thunder</item>
+        <item>Movenet MultiPose</item>
+        <item>Posenet</item>
+    </string-array>
+
+    <string-array name="tfe_pe_device_name">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="tfe_pe_tracker_array">
+        <item>Off</item>
+        <item>BoundingBox</item>
+        <item>Keypoint</item>
+    </string-array>
+
+</resources>
